@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title description">
+  <title id="title">Insurance Provider Distribution</title>
+  <desc id="description">Illustrative pie chart: Cigna 26 percent in red, Medicare 22 percent in green, UnitedHealthcare 20 percent in pink, Blue Cross 18 percent in blue, and Aetna 14 percent in orange.</desc>
+  <rect width="760" height="360" rx="14" fill="#111827"/>
+  <text x="32" y="42" fill="#f3f4f6" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Insurance Provider Distribution</text>
+  <g stroke="#111827" stroke-width="3">
+    <path d="M180 195 L180 60 A135 135 0 0 1 314.7 203.5 Z" fill="#d7263d"/>
+    <path d="M180 195 L314.7 203.5 A135 135 0 0 1 196.9 328.9 Z" fill="#2a9d5f"/>
+    <path d="M180 195 L196.9 328.9 A135 135 0 0 1 58.3 252.4 Z" fill="#f06bb3"/>
+    <path d="M180 195 L58.3 252.4 A135 135 0 0 1 75 99.7 Z" fill="#3b82f6"/>
+    <path d="M180 195 L75 99.7 A135 135 0 0 1 180 60 Z" fill="#ff9f1c"/>
+  </g>
+  <g fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle">
+    <text x="260" y="145">26%</text>
+    <text x="245" y="263">22%</text>
+    <text x="132" y="278">20%</text>
+    <text x="94" y="164">18%</text>
+    <text x="135" y="92">14%</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#e5e7eb">
+    <rect x="390" y="105" width="18" height="18" rx="3" fill="#d7263d"/>
+    <text x="422" y="120">Cigna — 26%</text>
+    <rect x="390" y="149" width="18" height="18" rx="3" fill="#2a9d5f"/>
+    <text x="422" y="164">Medicare — 22%</text>
+    <rect x="390" y="193" width="18" height="18" rx="3" fill="#f06bb3"/>
+    <text x="422" y="208">UnitedHealthcare — 20%</text>
+    <rect x="390" y="237" width="18" height="18" rx="3" fill="#3b82f6"/>
+    <text x="422" y="252">Blue Cross — 18%</text>
+    <rect x="390" y="281" width="18" height="18" rx="3" fill="#ff9f1c"/>
+    <text x="422" y="296">Aetna — 14%</text>
+  </g>
+</svg>

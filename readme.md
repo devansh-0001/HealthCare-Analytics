@@ -97,35 +97,24 @@ The notebook explores several important healthcare indicators, including:
 
 ## Example Visualizations
 
-The analysis includes charts such as:
+The charts below are illustrative examples. The insurance-provider pie chart and its legend are included as a local SVG image so they render consistently in Markdown previews.
 
-<div align="center">
-  <div style="width: 420px; height: 420px; border-radius: 50%; background: conic-gradient(#d7263d 0% 26%, #2a9d5f 26% 48%, #f06bb3 48% 68%, #3b82f6 68% 86%, #ff9f1c 86% 100%); box-shadow: inset 0 0 0 1px rgba(255,255,255,.12);"></div>
-</div>
-
-<div align="center" style="margin-top: 20px; display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; font-size: 15px; color: #e5e7eb;">
-  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #d7263d; border-radius: 2px;"></span>Cigna</div>
-  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #2a9d5f; border-radius: 2px;"></span>Medicare</div>
-  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #f06bb3; border-radius: 2px;"></span>UnitedHealthcare</div>
-  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #3b82f6; border-radius: 2px;"></span>Blue Cross</div>
-  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #ff9f1c; border-radius: 2px;"></span>Aetna</div>
-</div>
+![Insurance Provider Distribution: Cigna (red), Medicare (green), UnitedHealthcare (pink), Blue Cross (blue), Aetna (orange)](./insurance_provider_distribution.svg)
 
 ```mermaid
 xychart-beta
-    title Monthly Billing Trends
-    x-axis [Jan, Feb, Mar, Apr, May, Jun]
+    title "Illustrative Monthly Billing Trends"
+    x-axis ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
     y-axis "Average Billing Amount" 0 --> 40000
     bar [29000, 32500, 32000, 36000, 34500, 37200]
 ```
 
 ```mermaid
-bar title Common Medical Conditions
-    "Diabetes" : 30
-    "Cancer" : 24
-    "Asthma" : 18
-    "Obesity" : 16
-    "Arthritis" : 12
+xychart-beta
+    title "Illustrative Common Medical Conditions"
+    x-axis ["Diabetes", "Cancer", "Asthma", "Obesity", "Arthritis"]
+    y-axis "Example count" 0 --> 35
+    bar [30, 24, 18, 16, 12]
 ```
 
 ## Dashboard Overview
