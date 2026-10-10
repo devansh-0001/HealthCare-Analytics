@@ -99,14 +99,17 @@ The notebook explores several important healthcare indicators, including:
 
 The analysis includes charts such as:
 
-```mermaid
-pie title Insurance Provider Distribution
-    "Blue Cross" : 26
-    "Medicare" : 22
-    "Aetna" : 20
-    "UnitedHealthcare" : 18
-    "Cigna" : 14
-```
+<div align="center">
+  <div style="width: 420px; height: 420px; border-radius: 50%; background: conic-gradient(#d7263d 0% 26%, #2a9d5f 26% 48%, #f06bb3 48% 68%, #3b82f6 68% 86%, #ff9f1c 86% 100%); box-shadow: inset 0 0 0 1px rgba(255,255,255,.12);"></div>
+</div>
+
+<div align="center" style="margin-top: 20px; display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; font-size: 15px; color: #e5e7eb;">
+  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #d7263d; border-radius: 2px;"></span>Cigna</div>
+  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #2a9d5f; border-radius: 2px;"></span>Medicare</div>
+  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #f06bb3; border-radius: 2px;"></span>UnitedHealthcare</div>
+  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #3b82f6; border-radius: 2px;"></span>Blue Cross</div>
+  <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; display: inline-block; background: #ff9f1c; border-radius: 2px;"></span>Aetna</div>
+</div>
 
 ```mermaid
 xychart-beta
@@ -118,11 +121,11 @@ xychart-beta
 
 ```mermaid
 bar title Common Medical Conditions
-    "Diabetes" 30
-    "Cancer" 24
-    "Asthma" 18
-    "Obesity" 16
-    "Arthritis" 12
+    "Diabetes" : 30
+    "Cancer" : 24
+    "Asthma" : 18
+    "Obesity" : 16
+    "Arthritis" : 12
 ```
 
 ## Dashboard Overview
